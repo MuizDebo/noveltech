@@ -82,3 +82,44 @@ img {
     height: auto;
 }
 
+.side-1 {
+    padding-left: 5rem;
+}
+
+.section-1 {
+    height: 100em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+    color: #1f2937;
+    box-shadow: #1f2937;
+}
+
+.section-1-h2 {
+    font-size: 36px;
+    font-weight: 900;
+    padding: 1em 0 1em;
+}
+
+.courses {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.course-image {
+    width: 15em;
+    height: auto;
+}
+
+.course-box {
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #3882f6;
+    text-align: center;
+}
