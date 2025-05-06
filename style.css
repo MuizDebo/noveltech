@@ -142,3 +142,45 @@ img {
     text-align: right;
     padding-right: 3em;
 }
+
+.cta {
+    padding: 7em ;
+    display: flex;
+    justify-content: center;
+}
+
+.cta-board {
+    height: 8em;
+    width: 60em;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cta-content {
+    margin: 0;
+    padding: 0;
+    color: #e5e7eb;
+}
+
+h3, p {
+    padding: 0%;
+    margin: 0%;
+}
+
+.cta-button {
+    border-style: solid;
+    border-color: #e5e7eb;
+    color: #e5e7eb;
+    padding: 0.5em 1.5em;
+}
+
+.foot {
+    background-color: #1f2937;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
